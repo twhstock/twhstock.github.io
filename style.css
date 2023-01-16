@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6,
-div,
+div,check_a
 dl,
 dt,
 dd,
@@ -209,10 +209,10 @@ a:hover {
 }
 
 .check_a {
-	width: 155px;
-                height: 36px;
+	width: 152px;
+	height: 68px;
 	display: block;
-	background: url('a.png') no-repeat top;
+	background: url('line.png') no-repeat top;
 	background-size: cover;
 	margin: 20px auto;
 }
@@ -223,20 +223,19 @@ a:hover {
 }
 
 .text_1 {
-	width: 76%;
+	width: 77%;
 	display: block;
 	overflow: hidden;
-	margin: 5vw auto;
+	margin: 3vw auto;
 	background: rgba(0, 0, 0, 0.5);
 	color: #FFF;
-	border-radius: 20px;
+	border-radius: 21px;
 	padding: 0 20px;
 }
 
 .text_1 li {
-	font-size: 20px;
-	height: 30px;
-	line-height: 30px;
+	font-size: 15px;
+	height: 40px;
 }
 
 .text_1 li:nth-of-type(2n) {
